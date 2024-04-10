@@ -6,21 +6,24 @@
 <meta charset="ISO-8859-1">
 <title>Sign Up</title>
 </head>
-<body>
+<body style="background-color: #dfb5f5; display: flex; justify-content: center; align-items: center; height: 100vh;">
+	<div style="text-align:center; ">
+		<h1 style="color: #ad1df0;">Enter your details to SignUp</h1>
 	<form action="SignUp" method="post">
-			<label>First Name</label>
-	  		<input type="text" name="firstname">
+			<label style="display: inline-block; width: 100px; text-align: right;  font-weight: bold; font-size: 20px;">First Name</label>
+	  		<input type="text" name="firstname" style="padding: 8px 10px; border-radius: 5px; border:none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">
 	  		<br><br>
-	  		<label>Last Name</label>
-	  		<input type="text" name="lastname">
+	  		<label style="display: inline-block; width: 100px; text-align: right;  font-weight: bold; font-size: 20px;">Last Name</label>
+	  		<input type="text" name="lastname" style="padding: 8px 10px; border-radius: 5px; border:none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">
 	  		<br><br>
-	  		<label>Email</label>
-	  		<input type="text" name="email">
+	  		<label style="display: inline-block; width: 100px; text-align: right;  font-weight: bold; font-size: 20px;">Email</label>
+	  		<input type="text" name="email" style="padding: 8px 10px; border-radius: 5px; border:none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">
 	  		<br><br>
-	  		<label>Password</label>
-	  		<input type="text" name="password">
+	  		<label style="display: inline-block; width: 100px; text-align: right;  font-weight: bold; font-size: 20px;">Password</label>
+	  		<input type="text" name="password" style="padding: 8px 10px; border-radius: 5px; border:none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">
 	  		<br><br>
-	  		<input type="submit" value="submit">
+	  		<input type="submit" value="submit" style="padding: 10px 10px; font-weight: bold; border-radius: 20px; border:none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); cursor: pointer;">
 	</form>
+	</div>
 </body>
 </html>
